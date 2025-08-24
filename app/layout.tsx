@@ -9,7 +9,7 @@ import { NavMenu } from "@/components/nav/nav-menu";
 import { MobileNav } from "@/components/nav/mobile-nav";
 import { ThemeToggle } from "@/components/theme/theme-toggle";
 
-import Logo from "@/public/logo.svg";
+import Logo from "@/public/andres-vega-226x300.png";
 
 import Image from "next/image";
 import Link from "next/link";
@@ -69,8 +69,8 @@ const Nav = ({ className, children, id }: NavProps) => {
           <Image
             src={Logo}
             alt="Logo"
-            className="invert dark:invert-0"
-            width={84}
+            className=""
+            width={60}
             height={30.54}
           ></Image>
         </Link>
